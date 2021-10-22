@@ -1,0 +1,45 @@
+{
+  "bert_model_name": "bert-base-uncased",
+  "bert_cache_dir": null,
+  "bert_dropout": 0.1,
+
+  "task": "event_identification",
+  "num_event_types": 2,
+
+  "adapter_bottleneck_dim": 96,
+
+  "source_train_file": "data/timebank/train.jsonl",
+  "source_dev_file": "data/timebank/dev.jsonl",
+  "target_train_file": "data/litbank/train_unlabeled.jsonl",
+  "target_dev_file": null,
+  "test_file": "data/litbank/test.jsonl",
+
+  "log_path": "output",
+
+  "src_batch_size": 90,
+  "tgt_batch_size": 60,
+  "eval_batch_size": 32,
+  "max_epoch": 50,
+  "max_seq_length": 128,
+  "warmup_epoch": 5,
+  "accumulate_step": 1,
+  "grad_clipping": 5.0,
+
+  "adapter_lr": 1e-4,
+  "head_lr": 1e-3,
+  "weight_decay": 1e-4,
+
+  "alt_min_steps_k": 5,
+
+  "lambda_domain": 1.0,
+  "lambda_wasserstein": 1.0,
+  "lambda_similarity": 0.5,
+  "lambda_mlm": 1.0,
+
+  "wasserstein_gp_lambda": 10.0,
+  "data_selection_ratio": 0.67,
+  "mlm_mask_prob": 0.15,
+
+  "use_gpu": true,
+  "gpu_device": 0
+}
