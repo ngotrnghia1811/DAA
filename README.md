@@ -3,7 +3,7 @@
 Code for **"Unsupervised Domain Adaptation for Event Detection using Domain-specific Adapters"** (ACL-IJCNLP 2021). \
 Authors: Nghia Ngo Trung, Duy Phung, Thien Huu Nguyen (VinAI Research; University of Oregon)
 
-[Paper](https://aclanthology.org/2021.acl-long.490)
+[Paper](https://aclanthology.org/2021.findings-acl.351/)
 
 ## Overview
 
@@ -159,13 +159,13 @@ DAA/
 @inproceedings{ngo-etal-2021-unsupervised,
     title     = "Unsupervised Domain Adaptation for Event Detection using Domain-specific Adapters",
     author    = "Ngo Trung, Nghia  and  Phung, Duy  and  Nguyen, Thien Huu",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
     month     = aug,
     year      = "2021",
     address   = "Online",
     publisher = "Association for Computational Linguistics",
-    url       = "https://aclanthology.org/2021.acl-long.490",
-    pages     = "6268--6278",
+    url       = "https://aclanthology.org/2021.findings-acl.351",
+    pages     = "3986--3996",
 }
 ```
 
